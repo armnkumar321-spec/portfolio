@@ -1,0 +1,15 @@
+@import "tailwindcss";
+@theme {
+  --font-display: "Space Grotesk", sans-serif;
+  --font-sans: "Inter", sans-serif;
+  --font-mono: "JetBrains Mono", monospace;
+  --color-ink: #05060a;
+  --color-cyan: #22d3ee;
+  --color-violet: #8b5cf6;
+}
+html { scroll-behavior: smooth; background: #05060a; color: #e5e7eb; }
+body { font-family: var(--font-sans); overflow-x: hidden; }
+.glass { background: rgba(255,255,255,.03); border: 1px solid rgba(255,255,255,.08); backdrop-filter: blur(12px); }
+.grad { background: linear-gradient(90deg,#22d3ee,#8b5cf6); -webkit-background-clip: text; background-clip: text; color: transparent; }
+@media (pointer: fine) { body, a, button { cursor: none; } }
+@media (prefers-reduced-motion: reduce) { html { scroll-behavior: auto; } *, *::before, *::after { animation: none !important; transition: none !important; } }
