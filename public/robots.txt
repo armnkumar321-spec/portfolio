@@ -1,3 +1,3 @@
 User-agent: *
 Allow: /
-Sitemap: https://YOUR-DOMAIN/sitemap.xml
+Sitemap: https://portfolio-ashen-six-9ydnqq4vkl.vercel.app/sitemap.xml
